@@ -15,8 +15,6 @@ def index():
     return render_template('index.html')
 
 
-
-
 # Define a route to handle form submission and make predictions
 @app.route('/predict', methods=['POST'])
 def predict():
